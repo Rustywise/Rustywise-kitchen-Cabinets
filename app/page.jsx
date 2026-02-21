@@ -21,7 +21,7 @@ export default function Page() {
             We design and install custom kitchen cabinets built to last, serving
             clients within Gauteng.
           </p>
-<h3 style={{ marginTop: "40px" }}>Recent Work</h3>
+<h3 style={{ marginTop: "40px" }}>Work Examples</h3>
 
 <div
   style={{
