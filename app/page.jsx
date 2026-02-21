@@ -21,7 +21,7 @@ export default function Page() {
   <>
     {/* Floating WhatsApp Button */}
     <a
-      href="https://wa.me/27821234567?text=Hello%20I%20would%20like%20to%20enquire%20about%20kitchen%20cabinets"
+      href="https://wa.me/27812728078?text=Hello%20I%20would%20like%20to%20enquire%20about%20kitchen%20cabinets"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl z-[9999] flex items-center justify-center"
@@ -38,7 +38,6 @@ export default function Page() {
       </svg>
     </a>
   </>
-);
       </header>
 
       {/* Hero */}
