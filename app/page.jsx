@@ -21,7 +21,32 @@ export default function Page() {
             We design and install custom kitchen cabinets built to last, serving
             clients within Gauteng.
           </p>
+<h3 style={{ marginTop: "40px" }}>Recent Work</h3>
 
+<div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+    gap: "16px",
+    marginTop: "20px",
+  }}
+>
+  <img
+    src="/images/kitchen1.jpg"
+    alt="Custom kitchen cabinets by Rustywise"
+    style={{ width: "100%", borderRadius: "12px" }}
+  />
+  <img
+    src="/images/kitchen2.jpg"
+    alt="Modern kitchen cabinets by Rustywise"
+    style={{ width: "100%", borderRadius: "12px" }}
+  />
+  <img
+    src="/images/cabinet1.jpg"
+    alt="Cabinet detail by Rustywise"
+    style={{ width: "100%", borderRadius: "12px" }}
+  />
+</div>
           <h3 style={{ marginTop: "40px" }}>Book a 30-Minute Consultation</h3>
 
           <p>
