@@ -59,25 +59,7 @@ export default function Page() { return ( <main style={{ fontFamily: "Arial, san
     />
   </section>
 
-  {/* WhatsApp Button */}
-  <a
-    href="https://wa.me/27831234567?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20kitchen%20cabinets."
-    target="_blank"
-    style={{
-      position: "fixed",
-      left: "20px",
-      bottom: "20px",
-      background: "#25D366",
-      color: "white",
-      padding: "14px 20px",
-      borderRadius: "50px",
-      textDecoration: "none",
-      fontWeight: "bold",
-      boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
-    }}
-  >
-    WhatsApp Us
-  </a>
+  
 
   {/* Terms and Conditions */}
   <footer
@@ -87,7 +69,7 @@ export default function Page() { return ( <main style={{ fontFamily: "Arial, san
       backgroundColor: "#1F1F1F",
       color: "#CCCCCC",
       fontSize: "14px",
-    }}
+    }
   >
     <div style={{ maxWidth: "900px", margin: "0 auto" }}>
       <h4 style={{ color: "#E0C9A6", marginBottom: "12px" }}>
