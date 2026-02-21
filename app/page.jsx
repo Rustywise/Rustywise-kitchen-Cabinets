@@ -91,7 +91,31 @@ export default function Page() {
           </div>
         </div>
       </section>
-
+      <img
+    src="/images/cabinet2.jpg"
+    alt="Cabinet detail by Rustywise"
+    className="rounded-2xl shadow-lg"
+  />
+  <img
+    src="/images/cabinet1.jpg"
+    alt="Cabinet detail by Rustywise"
+    className="rounded-2xl shadow-lg"
+  />
+  <img
+  src="/images/kitchen1.jpg"
+  alt="Custom kitchen cabinets by Rustywise"
+  className="w-full rounded-2xl shadow-lg"
+/>
+<img
+  src="/images/kitchen2.jpg"
+  alt="Custom kitchen cabinets by Rustywise"
+  className="w-full rounded-2xl shadow-lg"
+/>
+<img
+    src="/images/cabinet3.jpg"
+    alt="Cabinet detail by Rustywise"
+    className="rounded-2xl shadow-lg"
+  />
       {/* Booking */}
       <section id="booking" className="py-24 bg-[#F5F2EE]">
         <div className="max-w-4xl mx-auto px-6 text-center">
