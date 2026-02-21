@@ -89,9 +89,8 @@ export default function Page() { return ( <main style={{ fontFamily: "Arial, san
         agree to these terms.
       </p>
       <p style={{ marginTop: "20px", fontSize: "13px", color: "#999" }}>
-        © {new Date().getFullYear()} Rustywise Kitchen Cabinets. This is a
-        registered business website. All rights reserved.
-      </p>
+        © 2026 Rustywise Kitchen Cabinets. This is a registered business website. All rights reserved.
+   </p>
     </div>
   </footer>
 </main>
