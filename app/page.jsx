@@ -35,7 +35,11 @@ export default function Page() {
             Custom kitchen cabinets built with care, quality, and experience.
           </p>
         </div>
-      </section>
+      </section><img
+  src="/images/kitchen1.jpg"
+  alt="Custom kitchen cabinets by Rustywise"
+  className="w-full rounded-2xl shadow-lg"
+/>
 
       {/* About */}
       <section id="about" className="py-24">
