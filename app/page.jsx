@@ -4,67 +4,117 @@ import { motion } from "framer-motion";
 
 export default function Page() {
   return (
-    <div style={{ fontFamily: "Arial, sans-serif", background: "#F5F2EE", color: "#1F1F1F" }}>
-      
+    <div className="min-h-screen bg-[#F5F2EE] text-[#1F1F1F]">
       {/* Header */}
-      <header style={{ background: "#1F1F1F", color: "white", padding: "16px" }}>
-        <h1>Rustywise Kitchen Cabinets</h1>
+      <header className="sticky top-0 z-50 bg-[#1F1F1F] text-white shadow-lg">
+        <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
+          <h1 className="text-2xl font-bold tracking-wide">
+            Rustywise Kitchen Cabinets
+          </h1>
+          <nav className="space-x-6 hidden md:block">
+            <a href="#about" className="hover:text-[#B44A2D]">About</a>
+            <a href="#services" className="hover:text-[#B44A2D]">Cabinets</a>
+            <a href="#projects" className="hover:text-[#B44A2D]">Projects</a>
+            <a href="#booking" className="hover:text-[#B44A2D]">Booking</a>
+          </nav>
+        </div>
       </header>
 
       {/* Hero */}
-      <section style={{ padding: "80px 20px", background: "#1F1F1F", color: "white", textAlign: "center" }}>
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          style={{ fontSize: "40px", marginBottom: "20px" }}
-        >
-          Cabinets Built With Wisdom & Craft
-        </motion.h2>
-        <p style={{ maxWidth: "600px", margin: "0 auto" }}>
-          Custom kitchen cabinets made to last — blending timeless craftsmanship with modern design.
-        </p>
+      <section className="bg-gradient-to-br from-[#2A2A2A] to-[#1F1F1F] text-white py-28">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-4xl md:text-6xl font-bold mb-6"
+          >
+            Cabinets Built With Wisdom & Craft
+          </motion.h2>
+          <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+            Custom kitchen cabinets built with care, quality, and experience.
+          </p>
+        </div>
       </section>
 
       {/* About */}
-      <section style={{ padding: "60px 20px" }}>
-        <h2>About Rustywise</h2>
-        <p>
-          Rustywise Kitchen Cabinets was founded on the belief that great kitchens start with solid craftsmanship.
-          We design and build cabinets that feel warm, work hard, and stand the test of time.
-        </p>
+      <section id="about" className="py-24">
+        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h3 className="text-3xl font-bold mb-4">About Rustywise</h3>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Rustywise Kitchen Cabinets is proudly owned and operated by
+              <strong> Gideon and Loraine Marais</strong>.
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              The business was founded on the belief that great kitchens start
+              with honest craftsmanship, quality materials, and attention to
+              detail. Every cabinet is designed to last and feel like home.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow-md p-8">
+            <ul className="space-y-4 text-gray-800">
+              <li>✔ Custom-built kitchen cabinets</li>
+              <li>✔ Premium materials & finishes</li>
+              <li>✔ Careful installation</li>
+              <li>✔ Trusted local craftsmanship</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       {/* Services */}
-      <section style={{ padding: "60px 20px", background: "white" }}>
-        <h2>Our Cabinet Solutions</h2>
-        <ul>
-          <li>Custom Kitchens</li>
-          <li>Refacing & Upgrades</li>
-          <li>Storage Solutions</li>
-        </ul>
+      <section id="services" className="bg-white py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <h3 className="text-3xl font-bold text-center mb-16">
+            Our Cabinet Services
+          </h3>
+          <div className="grid md:grid-cols-3 gap-8">
+            {["Custom Kitchens", "Cabinet Refacing", "Storage Solutions"].map(
+              (service) => (
+                <div
+                  key={service}
+                  className="rounded-2xl shadow-sm hover:shadow-lg transition p-8"
+                >
+                  <h4 className="text-xl font-semibold mb-3">{service}</h4>
+                  <p className="text-gray-600">
+                    Designed around your space, lifestyle, and vision.
+                  </p>
+                </div>
+              )
+            )}
+          </div>
+        </div>
       </section>
 
       {/* Booking */}
-      <section style={{ padding: "60px 20px", background: "white" }}>
-        <h2>Book a 30-Minute Kitchen Cabinet Consultation</h2>
-        <p>
-          Consultation type and call-out fee are confirmed during booking.
-          In-home consultations are limited to Gauteng.
-        </p>
-        <iframe
-          src="https://calendly.com/maximusrbt11/30min"
-          width="100%"
-          height="700"
-          style={{ border: "none" }}
-        />
+      <section id="booking" className="py-24 bg-[#F5F2EE]">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h3 className="text-3xl font-bold mb-6">
+            Book a 30-Minute Consultation
+          </h3>
+          <p className="text-gray-600 mb-10">
+            Consultation and call-out fees are confirmed during booking.
+            In-home consultations are available within Gauteng only.
+          </p>
+
+          <div className="w-full rounded-2xl overflow-hidden shadow-lg">
+            <iframe
+              src="https://calendly.com/maximusrbt11/30min"
+              width="100%"
+              height="700"
+              frameBorder="0"
+            ></iframe>
+          </div>
+        </div>
       </section>
 
       {/* Footer */}
-      <footer style={{ background: "black", color: "#aaa", padding: "20px", textAlign: "center" }}>
-        © {new Date().getFullYear()} Rustywise Kitchen Cabinets
+      <footer className="bg-black text-gray-400 py-6 text-center text-sm">
+        © {new Date().getFullYear()} Rustywise Kitchen Cabinets ·
+        Owned by Gideon and Loraine Marais
       </footer>
-
     </div>
   );
-}
+            }
