@@ -164,29 +164,36 @@ export default function Page() {
         Owned by Gideon and Loraine Marais
       </footer>
       <a
+<a
   href="https://wa.me/27812728078?text=Hello%20I%20would%20like%20to%20enquire%20about%20kitchen%20cabinets"
   target="_blank"
   rel="noopener noreferrer"
   style={{
     position: "fixed",
     bottom: "20px",
-    right: "20px",
+    left: "20px",
     backgroundColor: "#25D366",
-    color: "#ffffff",
     width: "60px",
     height: "60px",
     borderRadius: "50%",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    fontSize: "32px",
-    boxShadow: "0 4px 10px rgba(0,0,0,0.3)",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
     zIndex: 9999,
     textDecoration: "none"
   }}
   aria-label="Chat on WhatsApp"
 >
-  🟢
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
+    width="34"
+    height="34"
+    fill="#ffffff"
+  >
+    <path d="M16 .396C7.39.396.396 7.39.396 16c0 2.82.738 5.57 2.138 8.01L.24 31.604l7.77-2.042A15.55 15.55 0 0016 31.604c8.61 0 15.604-6.994 15.604-15.604C31.604 7.39 24.61.396 16 .396zm0 28.41a12.77 12.77 0 01-6.52-1.79l-.47-.28-4.61 1.21 1.23-4.49-.31-.46a12.75 12.75 0 01-1.96-6.77C3.36 9.3 9.3 3.36 16 3.36c6.7 0 12.64 5.94 12.64 12.64 0 6.7-5.94 12.64-12.64 12.64zm7.05-9.54c-.38-.19-2.25-1.11-2.6-1.24-.35-.13-.61-.19-.87.19-.25.38-1 1.24-1.23 1.5-.23.25-.45.28-.83.09-.38-.19-1.6-.59-3.04-1.88-1.12-1-1.87-2.24-2.09-2.62-.22-.38-.02-.58.17-.77.17-.17.38-.45.56-.67.19-.22.25-.38.38-.63.13-.25.06-.47-.03-.66-.09-.19-.87-2.1-1.19-2.88-.31-.75-.63-.65-.87-.66h-.75c-.25 0-.66.09-1 .47-.35.38-1.32 1.3-1.32 3.16 0 1.86 1.35 3.65 1.54 3.9.19.25 2.65 4.05 6.42 5.68.9.39 1.61.62 2.16.79.91.29 1.74.25 2.4.15.73-.11 2.25-.92 2.56-1.8.31-.88.31-1.64.22-1.8-.09-.16-.35-.25-.73-.44z"/>
+  </svg>
 </a>
     </div>
   );
