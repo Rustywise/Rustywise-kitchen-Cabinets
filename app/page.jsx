@@ -93,15 +93,6 @@ export default function Page() { return ( <main style={{ fontFamily: "Arial, san
     </div>
   </footer>
 </main>
-
-); }  {/* Booking */}
-  <section
-    style={{
-      padding: "40px 20px",
-      backgroundColor: "#FFFFFF",
-      textAlign: "center",
-    }}
-  >
     <h3 style={{ fontSize: "24px", marginBottom: "10px" }}>
       Book a 30‑Minute Consultation
     </h3>
