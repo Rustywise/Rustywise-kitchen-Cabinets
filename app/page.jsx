@@ -18,6 +18,27 @@ export default function Page() {
             <a href="#booking" className="hover:text-[#B44A2D]">Booking</a>
           </nav>
         </div>
+  <>
+    {/* Floating WhatsApp Button */}
+    <a
+      href="https://wa.me/27821234567?text=Hello%20I%20would%20like%20to%20enquire%20about%20kitchen%20cabinets"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl z-[9999] flex items-center justify-center"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+        fill="currentColor"
+        width="28"
+        height="28"
+      >
+        <path d="M19.11 17.205c-.372-.186-2.2-1.085-2.54-1.21-.34-.124-.588-.186-.836.187-.248.372-.96 1.21-1.176 1.457-.216.248-.432.279-.804.093-.372-.186-1.57-.578-2.99-1.84-1.105-.986-1.85-2.206-2.067-2.578-.216-.372-.023-.573.163-.759.167-.166.372-.433.558-.65.186-.216.248-.372.372-.62.124-.248.062-.465-.031-.65-.093-.186-.836-2.017-1.145-2.77-.301-.723-.607-.625-.836-.637-.216-.01-.465-.01-.713-.01-.248 0-.65.093-.99.465-.34.372-1.3 1.27-1.3 3.1 0 1.83 1.331 3.597 1.517 3.845.186.248 2.623 4.01 6.36 5.623.89.383 1.584.612 2.125.783.892.283 1.703.243 2.344.148.715-.106 2.2-.899 2.51-1.768.31-.868.31-1.613.217-1.768-.093-.155-.34-.248-.713-.434z" />
+      </svg>
+    </a>
+  </>
+);
       </header>
 
       {/* Hero */}
@@ -143,24 +164,6 @@ export default function Page() {
         © {new Date().getFullYear()} Rustywise Kitchen Cabinets ·
         Owned by Gideon and Loraine Marais
       </footer>
-      {/* WhatsApp Chat Button */}
-<a
-  href="https://wa.me/27812728078?text=Hello%20I%20would%20like%20to%20enquire%20about%20kitchen%20cabinets"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50 flex items-center justify-center"
-  aria-label="Chat on WhatsApp"
->
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 32 32"
-    fill="currentColor"
-    width="28"
-    height="28"
-  >
-    <path d="M19.11 17.205c-.372-.186-2.2-1.085-2.54-1.21-.34-.124-.588-.186-.836.187-.248.372-.96 1.21-1.176 1.457-.216.248-.432.279-.804.093-.372-.186-1.57-.578-2.99-1.84-1.105-.986-1.85-2.206-2.067-2.578-.216-.372-.023-.573.163-.759.167-.166.372-.433.558-.65.186-.216.248-.372.372-.62.124-.248.062-.465-.031-.65-.093-.186-.836-2.017-1.145-2.77-.301-.723-.607-.625-.836-.637-.216-.01-.465-.01-.713-.01-.248 0-.65.093-.99.465-.34.372-1.3 1.27-1.3 3.1 0 1.83 1.331 3.597 1.517 3.845.186.248 2.623 4.01 6.36 5.623.89.383 1.584.612 2.125.783.892.283 1.703.243 2.344.148.715-.106 2.2-.899 2.51-1.768.31-.868.31-1.613.217-1.768-.093-.155-.34-.248-.713-.434z" />
-  </svg>
-</a>
     </div>
   );
             }
