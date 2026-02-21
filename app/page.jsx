@@ -65,33 +65,30 @@ export default function Page() {
           © {new Date().getFullYear()} Rustywise Kitchen Cabinets · Owned by Gideon and Loraine Marais
         </footer>
       </div>
-
-      {/* Floating WhatsApp Button */}
-      <a
-        href="https://wa.me/27812728078"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{
-          position: "fixed",
-          bottom: "20px",
-          left: "20px",
-          backgroundColor: "#25D366",
-          width: "60px",
-          height: "60px",
-          borderRadius: "50%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
-          zIndex: 9999,
-          textDecoration: "none",
-          color: "#fff",
-          fontSize: "28px",
-        }}
-        aria-label="Chat on WhatsApp"
-      >
-        🟢
-      </a>
-    </>
-  );
+<a
+  href="https://wa.me/27812728078?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20kitchen%20cabinets."
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    position: "fixed",
+    left: "20px",
+    bottom: "20px",
+    backgroundColor: "#25D366",
+    width: "60px",
+    height: "60px",
+    borderRadius: "50%",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    boxShadow: "0 4px 10px rgba(0,0,0,0.3)",
+    zIndex: 9999,
+  }}
+>
+  <img
+    src="/whatsapp.svg"
+    alt="WhatsApp Chat"
+    style={{ width: "32px", height: "32px" }}
+  />
+</a>  
+      
       }
