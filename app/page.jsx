@@ -1,5 +1,4 @@
 export default function RustywiseKitchenCabinets() { return ( <div className="min-h-screen bg-[#F5F2EE] text-[#1F1F1F]"> {/* Header */} <header className="sticky top-0 z-50 bg-[#1F1F1F] text-white shadow-lg"> <div className="max-w-7xl mx-auto flex items-center justify-between p-4"> <h1 className="text-2xl font-bold tracking-wide">Rustywise Kitchen Cabinets</h1> <nav className="space-x-6 hidden md:block"> <a href="https://wa.me/27831234567?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20kitchen%20cabinets." target="_blank" rel="noopener noreferrer" style={{ position: "fixed", left: "20px", bottom: "20px", backgroundColor: "#25D366", width: "60px", height: "60px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 4px 10px rgba(0,0,0,0.3)", zIndex: 9999, }}
-
 > 
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="32" height="32"
