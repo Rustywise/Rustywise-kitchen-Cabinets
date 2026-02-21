@@ -34,7 +34,6 @@ export default function Page() { return ( <main style={{ fontFamily: "Arial, san
     </div>
   </section>
 
-  {/* Booking */}
   <section
     style={{
       padding: "40px 20px",
@@ -139,6 +138,7 @@ export default function Page() { return ( <main style={{ fontFamily: "Arial, san
   >
     WhatsApp Us
   </a>
+</footer>    
 </main>
 
 ); }
