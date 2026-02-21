@@ -163,6 +163,31 @@ export default function Page() {
         © {new Date().getFullYear()} Rustywise Kitchen Cabinets ·
         Owned by Gideon and Loraine Marais
       </footer>
+      <a
+  href="https://wa.me/27812728078?text=Hello%20I%20would%20like%20to%20enquire%20about%20kitchen%20cabinets"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
+    backgroundColor: "#25D366",
+    color: "#ffffff",
+    width: "60px",
+    height: "60px",
+    borderRadius: "50%",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "32px",
+    boxShadow: "0 4px 10px rgba(0,0,0,0.3)",
+    zIndex: 9999,
+    textDecoration: "none"
+  }}
+  aria-label="Chat on WhatsApp"
+>
+  🟢
+</a>
     </div>
   );
             }
