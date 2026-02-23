@@ -3,23 +3,28 @@ export default function Page() {
     <main style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#f5f2ee", color: "#1f1f1f" }}>
 
       {/* HEADER */}
+      
       <header
   style={{
     backgroundColor: "#1f1f1f",
     color: "#fff",
-    padding: "20px",
+    padding: "40px 20px", // more vertical space
     display: "flex",
+    flexDirection: "column", // stack logo above text
     alignItems: "center",
     gap: "20px",
-    justifyContent: "center"
   }}
 >
   <img
     src="/images/logo.png"
     alt="Rustywise Logo"
-    style={{ height: "60px", objectFit: "contain" }}
+    style={{
+      width: "250px", // logo width enlarged
+      maxWidth: "90%", // responsive on small screens
+      objectFit: "contain",
+    }}
   />
-  <div style={{ textAlign: "center" }}>
+  <div style={{ textAlign: "center", marginTop: "10px" }}>
     <h1 style={{ margin: 0 }}>Rustywise Kitchen Cabinets</h1>
     <p style={{ margin: 0 }}>Owned by Gideon and Loraine</p>
   </div>
@@ -30,7 +35,6 @@ export default function Page() {
         <h2>Custom Kitchen Cabinets Built to Last</h2>
         <p>Serving Gauteng • Consultation & call-out fees decided at appointment</p>
       </section>
-
       
       {/* ABOUT */}
       <section style={{ padding: "40px 20px", maxWidth: "900px", margin: "auto" }}>
@@ -42,8 +46,6 @@ export default function Page() {
         </p>
       </section>
       
-      
-    
       {/* SERVICES */}
       <section style={{ backgroundColor: "#ffffff", padding: "40px 20px" }}>
         <h2 style={{ textAlign: "center" }}>Our Services</h2>
