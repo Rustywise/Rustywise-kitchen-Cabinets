@@ -12,22 +12,17 @@ export default function Page() {
     display: "flex",
     flexDirection: "column", // stack logo above text
     alignItems: "center",
-    gap: "20px",
+    gap: "30px",
   }}
 >
   <img
     src="/images/logo.png"
     alt="Rustywise Logo"
     style={{
-      width: "250px", // logo width enlarged
+      width: "450px", // logo width enlarged
       maxWidth: "90%", // responsive on small screens
       objectFit: "contain",
     }}
-  />
-  <div style={{ textAlign: "center", marginTop: "10px" }}>
-    <h1 style={{ margin: 0 }}>Rustywise Kitchen Cabinets</h1>
-    <p style={{ margin: 0 }}>Owned by Gideon and Loraine</p>
-  </div>
 </header>
       
       {/* HERO */}
