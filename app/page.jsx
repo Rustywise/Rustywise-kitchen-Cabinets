@@ -48,14 +48,14 @@ export default function Page() {
     backgroundColor: "#f0ede8",
   }}
 >
-  <img src="/images/kitchen1.jpg" width="280" />
+  <img src="/images/kitchen6.jpg" width="280" />
   <img src="/images/kitchen2.jpg" width="280" />
   <img src="/images/kitchen4.jpg" width="280" />
   <img src="/images/kitchen5.jpg" width="280" />
   <img src="/images/cabinet6.jpg" width="280" />
-  <img src="/images/cabinet5.jpg" width="280" />
+  <img src="/images/kitchen1.jpg" width="280" />
   <img src="/images/cabinet4.jpg" width="280" />
-  <img src="/images/kitchen6.jpg" width="280" />
+  <img src="/images/cabinet5.jpg" width="280" />
 </section>
 
       {/* BOOKING */}
