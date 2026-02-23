@@ -27,15 +27,17 @@ export default function Page() {
       
       {/* IMAGE SLIDER */}
 <section style={{ padding: "50px 20px", backgroundColor: "#f0ede8" }}>
-  <div
-    style={{
-      maxWidth: "900px",
-      margin: "auto",
-      overflow: "hidden",
-      borderRadius: "16px",
-      boxShadow: "0 10px 30px rgba(0,0,0,0.15)",
-    }}
-  >
+ <div
+  style={{
+    maxWidth: "600px",
+    height: "350px",
+    margin: "auto",
+    overflow: "hidden",
+    borderRadius: "14px",
+    boxShadow: "0 8px 20px rgba(0,0,0,0.15)",
+  }}
+>
+  <
     <div
       style={{
         display: "flex",
@@ -43,15 +45,15 @@ export default function Page() {
         animation: "slide 50s infinite",
       }}
     >
-      <img src="/images/kitchen1.jpg" style={{ width: "100%" }} />
-      <img src="/images/kitchen2.jpg" style={{ width: "100%" }} />
-      <img src="/images/kitchen3.jpg" style={{ width: "100%" }} />
-      <img src="/images/kitchen4.jpg" style={{ width: "100%" }} />
-      <img src="/images/kitchen5.jpg" style={{ width: "100%" }} />
-      <img src="/images/kitchen6.jpg" style={{ width: "100%" }} />
-      <img src="/images/cabinet4.jpg" style={{ width: "100%" }} />
-      <img src="/images/cabinet5.jpg" style={{ width: "100%" }} />
-      <img src="/images/cabinet6.jpg" style={{ width: "100%" }} />
+      <img src="/images/kitchen1.jpg" style={{ width: "100%",height: "350px",objectFit: "cover" }} />
+      <img src="/images/kitchen2.jpg" style={{ width: "100%",height: "350px",objectFit: "cover" }} />
+      <img src="/images/kitchen3.jpg" style={{ width: "100%",height: "350px",objectFit: "cover" }} />
+      <img src="/images/kitchen4.jpg" style={{ width: "100%",height: "350px",objectFit: "cover" }} />
+      <img src="/images/kitchen5.jpg" style={{ width: "100%",height: "350px",objectFit: "cover" }} />
+      <img src="/images/kitchen6.jpg" style={{ width: "100%",height: "350px",objectFit: "cover" }} />
+      <img src="/images/cabinet4.jpg" style={{ width: "100%",height: "350px",objectFit: "cover" }} />
+      <img src="/images/cabinet5.jpg" style={{ width: "100%",height: "350px",objectFit: "cover" }} />
+      <img src="/images/cabinet6.jpg" style={{ width: "100%",height: "350px",objectFit: "cover" }} />
     </div>
   </div>
 
