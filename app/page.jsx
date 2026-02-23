@@ -16,7 +16,6 @@ export default function Page() {
 
       {/* IMAGES */}
       <section style={{ padding: "40px", display: "flex", gap: "20px", justifyContent: "center", flexWrap: "wrap" }}>
-        <img src="/images/kitchen1.jpg" alt="Kitchen cabinet" width="300" />
         <img src="/images/kitchen2.jpg" alt="Modern kitchen" width="300" />
         <img src="/images/kitchen3.jpg" alt="Modern kitchen" width="300" />
         <img src="/images/kitchen4.jpg" alt="Modern kitchen" width="300" />
@@ -25,6 +24,7 @@ export default function Page() {
         <img src="/images/cabinet4.jpg" alt="Cabinet detail" width="300" />
         <img src="/images/cabinet5.jpg" alt="Cabinet detail" width="300" />
         <img src="/images/cabinet6.jpg" alt="Cabinet detail" width="300" />
+        <img src="/images/kitchen1.jpg" alt="Kitchen cabinet" width="300" />
       </section>
 
       {/* ABOUT */}
