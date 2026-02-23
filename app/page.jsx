@@ -3,11 +3,28 @@ export default function Page() {
     <main style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#f5f2ee", color: "#1f1f1f" }}>
 
       {/* HEADER */}
-      <header style={{ backgroundColor: "#1f1f1f", color: "#fff", padding: "20px" }}>
-        <h1 style={{ margin: 0 }}>Rustywise Kitchen Cabinets</h1>
-        <p style={{ margin: 0 }}>Owned by Gideon and Loraine</p>
-      </header>
-
+      <header
+  style={{
+    backgroundColor: "#1f1f1f",
+    color: "#fff",
+    padding: "20px",
+    display: "flex",
+    alignItems: "center",
+    gap: "20px",
+    justifyContent: "center"
+  }}
+>
+  <img
+    src="/images/logo.png"
+    alt="Rustywise Logo"
+    style={{ height: "60px", objectFit: "contain" }}
+  />
+  <div style={{ textAlign: "center" }}>
+    <h1 style={{ margin: 0 }}>Rustywise Kitchen Cabinets</h1>
+    <p style={{ margin: 0 }}>Owned by Gideon and Loraine</p>
+  </div>
+</header>
+      
       {/* HERO */}
       <section style={{ padding: "60px 20px", textAlign: "center", backgroundColor: "#2a2a2a", color: "#fff" }}>
         <h2>Custom Kitchen Cabinets Built to Last</h2>
