@@ -25,38 +25,7 @@ export default function Page() {
         </p>
       </section>
       
-      {/* IMAGE SLIDER */}
-{/* IMAGE SLIDER */}
-<section style={{ padding: "50px 20px", backgroundColor: "#f0ede8" }}>
-  <div
-    style={{
-      maxWidth: "600px",
-      height: "350px",
-      margin: "auto",
-      overflow: "hidden",
-      borderRadius: "14px",
-      boxShadow: "0 8px 20px rgba(0,0,0,0.15)",
-    }}
-  >
-    <div
-      style={{
-        display: "flex",
-        width: "900%",
-        animation: "slide 5s infinite",
-      }}
-    >
-      <img src="/images/kitchen2.jpg" style={{ width: "100%", height: "350px", objectFit: "cover" }} />
-      <img src="/images/kitchen3.jpg" style={{ width: "100%", height: "350px", objectFit: "cover" }} />
-      <img src="/images/kitchen4.jpg" style={{ width: "100%", height: "350px", objectFit: "cover" }} />
-      <img src="/images/kitchen5.jpg" style={{ width: "100%", height: "350px", objectFit: "cover" }} />
-      <img src="/images/kitchen6.jpg" style={{ width: "100%", height: "350px", objectFit: "cover" }} />
-      <img src="/images/cabinet4.jpg" style={{ width: "100%", height: "350px", objectFit: "cover" }} />
-      <img src="/images/cabinet5.jpg" style={{ width: "100%", height: "350px", objectFit: "cover" }} />
-      <img src="/images/cabinet6.jpg" style={{ width: "100%", height: "350px", objectFit: "cover" }} />
-     <img src="/images/kitchen1.jpg" style={{ width: "100%", height: "350px", objectFit: "cover" }} />
-    </div>
-  </div>
-</section>
+      
     
       {/* SERVICES */}
       <section style={{ backgroundColor: "#ffffff", padding: "40px 20px" }}>
@@ -68,6 +37,27 @@ export default function Page() {
           <li>walk in closets</li>
         </ul>
       </section>
+      {/* IMAGE GALLERY */}
+<section
+  style={{
+    padding: "40px 20px",
+    display: "flex",
+    flexWrap: "wrap",
+    gap: "20px",
+    justifyContent: "center",
+    backgroundColor: "#f0ede8",
+  }}
+>
+  <img src="/images/kitchen2.jpg" width="280" />
+  <img src="/images/kitchen3.jpg" width="280" />
+  <img src="/images/kitchen4.jpg" width="280" />
+  <img src="/images/kitchen5.jpg" width="280" />
+  <img src="/images/kitchen6.jpg" width="280" />
+  <img src="/images/cabinet4.jpg" width="280" />
+  <img src="/images/cabinet5.jpg" width="280" />
+  <img src="/images/cabinet6.jpg" width="280" />
+  <img src="/images/kitchen1.jpg" width="280" />
+</section>
 
       {/* BOOKING */}
       <section style={{ padding: "40px 20px", textAlign: "center" }}>
