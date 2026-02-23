@@ -42,7 +42,7 @@ export default function Page() {
       style={{
         display: "flex",
         width: "900%",
-        animation: "slide 20s infinite",
+        animation: "slide 5s infinite",
       }}
     >
       <img src="/images/kitchen2.jpg" style={{ width: "100%", height: "350px", objectFit: "cover" }} />
