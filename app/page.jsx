@@ -37,7 +37,6 @@ export default function Page() {
     boxShadow: "0 8px 20px rgba(0,0,0,0.15)",
   }}
 >
-  <
     <div
       style={{
         display: "flex",
@@ -55,7 +54,6 @@ export default function Page() {
       <img src="/images/cabinet5.jpg" style={{ width: "100%",height: "350px",objectFit: "cover" }} />
       <img src="/images/cabinet6.jpg" style={{ width: "100%",height: "350px",objectFit: "cover" }} />
     </div>
-  </div>
 
   <style>{`
   @keyframes slide {
