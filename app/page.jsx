@@ -38,7 +38,7 @@ export default function Page() {
           <li>Custom kitchen cabinets</li>
           <li>Cabinet refacing & upgrades</li>
           <li>Built-in cupboards</li>
-          <li>walk in cupboards</li>
+          <li>walk in closets</li>
         </ul>
       </section>
 
