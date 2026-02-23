@@ -26,7 +26,7 @@ export default function Page() {
         <h2>About Us</h2>
         <p>
           Rustywise Kitchen Cabinets specialises in custom-built kitchen cabinets,
-          storage solutions, and professional installation. We focus on quality
+          walk in closets, and professional installation. We focus on quality
           craftsmanship, honest pricing, and long-lasting results.
         </p>
       </section>
@@ -38,7 +38,7 @@ export default function Page() {
           <li>Custom kitchen cabinets</li>
           <li>Cabinet refacing & upgrades</li>
           <li>Built-in cupboards</li>
-          <li>Storage solutions</li>
+          <li>walk in cupboards</li>
         </ul>
       </section>
 
