@@ -3,27 +3,25 @@ export default function Page() {
     <main style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#f5f2ee", color: "#1f1f1f" }}>
 
       {/* HEADER */}
-      
-      <header
+     <header
   style={{
     backgroundColor: "#1f1f1f",
-    color: "#fff",
-    padding: "40px 20px", // more vertical space
+    padding: "40px 20px",
     display: "flex",
-    flexDirection: "column", // stack logo above text
+    justifyContent: "center",
     alignItems: "center",
-    gap: "30px",
   }}
 >
   <img
     src="/images/logo.png"
     alt="Rustywise Logo"
     style={{
-      width: "450px", // logo width enlarged
-      maxWidth: "90%", // responsive on small screens
+      width: "300px",      // bigger logo
+      maxWidth: "90%",     // responsive on small screens
       objectFit: "contain",
     }}
-</header>
+  />
+</header> 
       
       {/* HERO */}
       <section style={{ padding: "60px 20px", textAlign: "center", backgroundColor: "#2a2a2a", color: "#fff" }}>
