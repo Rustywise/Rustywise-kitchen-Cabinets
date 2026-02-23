@@ -14,19 +14,7 @@ export default function Page() {
         <p>Serving Gauteng • Consultation & call-out fees decided at appointment</p>
       </section>
 
-      {/* IMAGES */}
-      <section style={{ padding: "40px", display: "flex", gap: "20px", justifyContent: "center", flexWrap: "wrap" }}>
-        <img src="/images/kitchen2.jpg" alt="Modern kitchen" width="300" />
-        <img src="/images/kitchen3.jpg" alt="Modern kitchen" width="300" />
-        <img src="/images/kitchen4.jpg" alt="Modern kitchen" width="300" />
-        <img src="/images/kitchen5.jpg" alt="Modern kitchen" width="300" />
-        <img src="/images/kitchen6.jpg" alt="Modern kitchen" width="300" />
-        <img src="/images/cabinet4.jpg" alt="Cabinet detail" width="300" />
-        <img src="/images/cabinet5.jpg" alt="Cabinet detail" width="300" />
-        <img src="/images/cabinet6.jpg" alt="Cabinet detail" width="300" />
-        <img src="/images/kitchen1.jpg" alt="Kitchen cabinet" width="300" />
-      </section>
-
+      
       {/* ABOUT */}
       <section style={{ padding: "40px 20px", maxWidth: "900px", margin: "auto" }}>
         <h2>About Us</h2>
@@ -36,6 +24,56 @@ export default function Page() {
           craftsmanship, honest pricing, and long-lasting results.
         </p>
       </section>
+      
+      {/* IMAGE SLIDER */}
+<section style={{ padding: "50px 20px", backgroundColor: "#f0ede8" }}>
+  <div
+    style={{
+      maxWidth: "900px",
+      margin: "auto",
+      overflow: "hidden",
+      borderRadius: "16px",
+      boxShadow: "0 10px 30px rgba(0,0,0,0.15)",
+    }}
+  >
+    <div
+      style={{
+        display: "flex",
+        width: "900%",
+        animation: "slide 50s infinite",
+      }}
+    >
+      <img src="/images/kitchen1.jpg" style={{ width: "100%" }} />
+      <img src="/images/kitchen2.jpg" style={{ width: "100%" }} />
+      <img src="/images/kitchen3.jpg" style={{ width: "100%" }} />
+      <img src="/images/kitchen4.jpg" style={{ width: "100%" }} />
+      <img src="/images/kitchen5.jpg" style={{ width: "100%" }} />
+      <img src="/images/kitchen6.jpg" style={{ width: "100%" }} />
+      <img src="/images/cabinet4.jpg" style={{ width: "100%" }} />
+      <img src="/images/cabinet5.jpg" style={{ width: "100%" }} />
+      <img src="/images/cabinet6.jpg" style={{ width: "100%" }} />
+    </div>
+  </div>
+
+  <style jsx>{`
+    @keyframes slide {
+      0% { transform: translateX(0%); }
+      11% { transform: translateX(0%); }
+
+      22% { transform: translateX(-100%); }
+      33% { transform: translateX(-200%); }
+
+      44% { transform: translateX(-300%); }
+      55% { transform: translateX(-400%); }
+
+      66% { transform: translateX(-500%); }
+      77% { transform: translateX(-600%); }
+
+      88% { transform: translateX(-700%); }
+      100% { transform: translateX(-800%); }
+    }
+  `}</style>
+</section>
 
       {/* SERVICES */}
       <section style={{ backgroundColor: "#ffffff", padding: "40px 20px" }}>
