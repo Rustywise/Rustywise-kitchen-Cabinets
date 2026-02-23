@@ -55,24 +55,25 @@ export default function Page() {
     </div>
   </div>
 
-  <style jsx>{`
-    @keyframes slide {
-      0% { transform: translateX(0%); }
-      11% { transform: translateX(0%); }
+  <style>{`
+  @keyframes slide {
+    0% { transform: translateX(0%); }
+    11% { transform: translateX(0%); }
 
-      22% { transform: translateX(-100%); }
-      33% { transform: translateX(-200%); }
+    22% { transform: translateX(-100%); }
+    33% { transform: translateX(-200%); }
 
-      44% { transform: translateX(-300%); }
-      55% { transform: translateX(-400%); }
+    44% { transform: translateX(-300%); }
+    55% { transform: translateX(-400%); }
 
-      66% { transform: translateX(-500%); }
-      77% { transform: translateX(-600%); }
+    66% { transform: translateX(-500%); }
+    77% { transform: translateX(-600%); }
 
-      88% { transform: translateX(-700%); }
-      100% { transform: translateX(-800%); }
-    }
-  `}</style>
+    88% { transform: translateX(-700%); }
+    100% { transform: translateX(-800%); }
+  }
+`}</style>
+  
 </section>
 
       {/* SERVICES */}
